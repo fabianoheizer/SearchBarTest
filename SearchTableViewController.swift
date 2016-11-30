@@ -10,7 +10,7 @@ import UIKit
 
 class SearchTableViewController: UITableViewController, UISearchBarDelegate {
     let searchBar = UISearchBar()
-    let tableData = ["Teste","Code5", "Code3", "Code2", "Code1", "Code6", "Code7", "Code8"]
+    let tableData = ["Teste","Code5", "Code3", "Code2", "Code1", "Code6", "Code7", "Code8", "Code9"]
     
     var filteredArray = [String]();
     var shouldShowSearchResults = false;
